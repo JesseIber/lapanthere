@@ -834,7 +834,11 @@ h4 {
 
 .citation__auth{
     font-size: 20px;
-    color: #989898!important;
+    color: #585858!important;
+}
+
+.text-black{
+    color: black!important;
 }
 
 .mb-0{

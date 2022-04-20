@@ -822,7 +822,23 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+
+.citation__content{
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: #575757;
+}
+
+.citation__auth{
+    font-size: 20px;
+    color: #989898!important;
+}
+
+.mb-0{
+    margin-bottom: 0;
 }
 
 @media (max-width: 1024px) {

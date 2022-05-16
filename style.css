@@ -851,6 +851,14 @@ h4 {
     margin-bottom: 0;
 }
 
+.d-flex{
+    display: flex;
+}
+
+.d-column-reverse{
+    flex-direction: column-reverse;
+}
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;

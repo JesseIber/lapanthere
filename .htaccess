@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+<FilesMatch "\.(ico|gif|png|jpe?g)$">Header set Cache-Control "max-age=2628000, public"</FilesMatch>
+<FilesMatch "\.(js|css)$">Header set Cache-Control "max-age=31536000, public"</FilesMatch> 
+<FilesMatch "\.(htm|html|php|cgi|scgi|fcgi)$">Header unset Cache-Control</FilesMatch>
+</IfModule>
